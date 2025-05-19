@@ -1,0 +1,114 @@
+{
+    "US": {
+        "name": "United States",
+        "region": "North America",
+        "metrics": ["gdp", "inflation", "unemployment", "interest_rate"],
+        "fetcher": {
+            "type": "api",
+            "class_name": "us_api_fetcher",
+            "params": {
+                "api_key": "YOUR_API_KEY_HERE",
+                "base_url": "https://api.example.com/economic"
+            }
+        },
+        "preprocessor": {
+            "class_name": "us_preprocessor"
+        },
+        "indicators": {
+            "gdp": {
+                "id": "GDP",
+                "name": "Gross Domestic Product",
+                "unit": "billion USD",
+                "currency": "USD"
+            },
+            "inflation": {
+                "id": "CPI",
+                "name": "Consumer Price Index",
+                "unit": "%"
+            },
+            "unemployment": {
+                "id": "UNEMP",
+                "name": "Unemployment Rate",
+                "unit": "%"
+            },
+            "interest_rate": {
+                "id": "INTRATE",
+                "name": "Federal Funds Rate",
+                "unit": "%"
+            }
+        },
+        "data_source_urls": {
+            "gdp": "https://api.example.com/economic/gdp",
+            "inflation": "https://api.example.com/economic/cpi",
+            "unemployment": "https://api.example.com/economic/unemployment_rate",
+            "interest_rate": "https://api.example.com/economic/federal_funds_rate"
+        }
+    },
+    "EU": {
+        "name": "European Union",
+        "region": "Europe",
+        "metrics": ["gdp", "inflation", "unemployment", "interest_rate"],
+        "fetcher": {
+            "type": "scraper",
+            "class_name": "eu_scraper",
+            "params": {
+                "base_urls": {
+                    "gdp": "https://ec.europa.eu/eurostat/data/gdp",
+                    "inflation": "https://ec.europa.eu/eurostat/data/hicp",
+                    "unemployment": "https://ec.europa.eu/eurostat/data/unemployment",
+                    "interest_rate": "https://www.ecb.europa.eu/stats/policy_rates/html/index.en.html"
+                }
+            }
+        },
+        "preprocessor": {
+            "class_name": "eu_preprocessor"
+        },
+        "indicators": {
+            "gdp": {
+                "id": "GDP",
+                "name": "Gross Domestic Product",
+                "unit": "billion EUR",
+                "currency": "EUR"
+            },
+            "inflation": {
+                "id": "HICP",
+                "name": "Harmonized Index of Consumer Prices",
+                "unit": "%"
+            },
+            "unemployment": {
+                "id": "UNEMP",
+                "name": "Unemployment Rate",
+                "unit": "%"
+            },
+            "interest_rate": {
+                "id": "EURIBOR",
+                "name": "Euro Interbank Offered Rate",
+                "unit": "%"
+            }
+        },
+        "data_source_urls": {
+            "gdp": "https://ec.europa.eu/eurostat/data/gdp",
+            "inflation": "https://ec.europa.eu/eurostat/data/hicp",
+            "unemployment": "https://ec.europa.eu/eurostat/data/unemployment",
+            "interest_rate": "https://www.ecb.europa.eu/stats/policy_rates/html/index.en.html"
+        }
+    },
+    "CL": {
+        "name": "Chile",
+        "region": "South America",
+        "fetcher": {
+            "type": "api",
+            "class_name": "cl_api_fetcher",
+            "params": {}
+        },
+        "preprocessor": {
+            "class_name": "cl_preprocessor"
+        },
+        "data_source_urls": {
+            "gdp": "https://si3.bcentral.cl/Siete/ES/Siete/Cuadro/CAP_ACTIVIDAD_ECONOMICA/MN_ACT_ECO_FLU/PB_ACT_ECO",
+            "inflation": "https://si3.bcentral.cl/Siete/ES/Siete/Cuadro/CAP_PRECIOS/MN_CAP_PRECIO/PC_IND_NOM",
+            "unemployment": "https://si3.bcentral.cl/Siete/ES/Siete/Cuadro/CAP_MERCADO_LABORAL/MN_MERC_LAB/MS_DESOCUP",
+            "interest_rate": "https://si3.bcentral.cl/Siete/ES/Siete/Cuadro/CAP_TASAS_INTERES/MN_TASA_INTERES/TPM_TPM"
+        }
+    }
+}

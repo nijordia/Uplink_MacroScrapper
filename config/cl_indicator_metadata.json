@@ -1,0 +1,452 @@
+{
+    "gdp_quarterly": {
+        "id": "F032.PIB.FLU.R.CLP.EP18.Z.Z.0.T",
+        "name": "Índice Actividad Económica",
+        "unit": "billion CLP",
+        "currency": "CLP",
+        "frequency": "Q"
+    },
+    "gdp_monthly": {
+        "id": "F032.IMC.IND.Z.Z.EP18.Z.Z.0.M",
+        "name": "Índice Mensual de Actividad Económica",
+        "unit": "billion CLP",
+        "currency": "CLP",
+        "frequency": "M"
+    },
+    "inflation": {
+        "id": "F074.IPC.V12.Z.EP23.C.M",
+        "name": "Índice de Precios al Consumidor",
+        "unit": "%",
+        "currency": null,
+        "frequency": "M"
+    },
+    "unemployment": {
+        "id": "F049.DES.TAS.INE9.10.M",
+        "name": "Tasa de Desempleo",
+        "unit": "%",
+        "currency": null,
+        "frequency": "M"
+    },
+    "interest_rate": {
+        "id": "F022.TPM.TIN.D001.NO.Z.D",
+        "name": "Tasa de Política Monetaria",
+        "unit": "%",
+        "currency": null,
+        "frequency": "D"
+    },
+    "exports": {
+        "id": "F033.XBS.FLU.R.CLP.EP18.0.T",
+        "name": "Exports",
+        "unit": "million CLP",
+        "currency": "CLP",
+        "frequency": "Q"
+    },
+    "imports": {
+        "id": "F033.IBS.FLU.R.CLP.EP18.0.T",
+        "name": "Imports",
+        "unit": "million CLP",
+        "currency": "CLP",
+        "frequency": "Q"
+    },
+    "merchandise_exports_FOB": {
+        "id": "F068.B1.FLU.Z.0.C.N.Z.Z.Z.Z.6.0.M",
+        "name": "Merchandise Exports (FOB)",
+        "unit": "million USD",
+        "currency": "USD",
+        "frequency": "M"
+    },
+    "merchandise_imports_CIF": {
+        "id": "F068.B1.FLU.Z.0.M.N.0.Z.Z.Z.6.0.M",
+        "name": "Merchandise Imports (CIF)",
+        "unit": "million USD",
+        "currency": "USD",
+        "frequency": "M"
+    },
+    "reserves": {
+        "id": "F062.A5.STO.PF.USD.M",
+        "name": "International Reserves",
+        "unit": "million USD",
+        "currency": "USD",
+        "frequency": "M"
+    },
+    "reserves_%_gdp": {
+        "id": "F062.A5.PPIB18.PF.USD.T",
+        "name": "Reserves (% of GDP)",
+        "unit": "%",
+        "currency": null,
+        "frequency": "Q"
+    },
+    "external_debt": {
+        "id": "F068.T6.STO.Z.Z.S.P.Z.T.Z.Z.6.0.M",
+        "name": "External Debt",
+        "unit": "million USD",
+        "currency": "USD",
+        "frequency": "M"
+    },
+    "current_account": {
+        "id": "F068.A.FLU.Z.0.S.N.Z.Z.Z.Z.6.0.T",
+        "name": "Current Account",
+        "unit": "million USD",
+        "currency": "USD",
+        "frequency": "Q"
+    },
+    "current_account_%_gdp": {
+        "id": "F068.A.PFA18.Z.0.S.N.Z.Z.Z.Z.6.0.T",
+        "name": "Current Account (% of GDP)",
+        "unit": "%",
+        "currency": null,
+        "frequency": "Q"
+    },
+    "trade_balance": {
+        "id": "F068.B1.VAR.T0.0.S.N.Z.Z.Z.Z.6.0.M",
+        "name": "Trade Balance",
+        "unit": "million USD",
+        "currency": "USD",
+        "frequency": "M"
+    },
+    "consumer_goods_imports": {
+        "id": "F068.B1.FLU.Z.0.M.N.A.Z.Z.Z.6.0.M",
+        "name": "Consumer Goods Imports",
+        "unit": "million USD",
+        "currency": "USD",
+        "frequency": "M"
+    },
+    "imports_consumer_goods": {
+        "id": "F068.B1.FLU.Z.0.M.N.A.Z.Z.Z.6.0.M",
+        "name": "Consumer Goods Imports",
+        "unit": "million USD",
+        "currency": "USD",
+        "frequency": "M"
+    },
+    "imports_durable": {
+        "id": "F068.B1.FLU.Z.0.M.N.B.Z.Z.Z.6.0.M",
+        "name": "Durable Goods Imports",
+        "unit": "million USD",
+        "currency": "USD",
+        "frequency": "M"
+    },
+    "import_semi_durable": {
+        "id": "F068.B1.FLU.Z.0.M.N.C.Z.Z.Z.6.0.M",
+        "name": "Semi-Durable Goods Imports",
+        "unit": "million USD",
+        "currency": "USD",
+        "frequency": "M"
+    },
+    "import_other_consumer_goods": {
+        "id": "F068.B1.FLU.Z.0.M.N.D.Z.Z.Z.6.0.M",
+        "name": "Other Consumer Goods Imports",
+        "unit": "million USD",
+        "currency": "USD",
+        "frequency": "M"
+    },
+    "imports_intermediate_goods": {
+        "id": "F068.B1.FLU.Z.0.M.N.E.Z.Z.Z.6.0.M",
+        "name": "Intermediate Goods Imports",
+        "unit": "million USD",
+        "currency": "USD",
+        "frequency": "M"
+    },
+
+    "imports_energy": {
+        "id": "F068.B1.FLU.Z.0.M.N.F.Z.Z.Z.6.0.M",
+        "name": "Energy Imports",
+        "unit": "million USD",
+        "currency": "USD",
+        "frequency": "M"
+    },
+    "imports_fuels": {
+        "id": "F068.B1.FLU.Z.0.M.N.G.Z.Z.Z.6.0.M",
+        "name": "Fuels Imports",
+        "unit": "million USD",
+        "currency": "USD",
+        "frequency": "M"
+    },
+    "imports_other_intermediate_goods": {
+        "id": "F068.B1.FLU.Z.0.M.N.J.Z.Z.Z.6.0.M",
+        "name": "Other Intermediate Goods Imports",
+        "unit": "million USD",
+        "currency": "USD",
+        "frequency": "M"
+    },
+    "imports_capital_goods": {
+        "id": "F068.B1.FLU.Z.0.M.N.K.Z.Z.Z.6.0.M",
+        "name": "Capital Goods Imports",
+        "unit": "million USD",
+        "currency": "USD",
+        "frequency": "M"
+    },
+
+    "exports_food": {
+        "id": "F068.U1.FLU.H0.0.C.Z.Z.Z.Z.Z.6.0.M",
+        "name": "Food and Live Animals (CUCI) exports",
+        "unit": "million USD",
+        "currency": "USD",
+        "frequency": "M"
+    },    
+    "exports_tobacco_beverages": {
+        "id": "F068.U1.FLU.H1.0.C.Z.Z.Z.Z.Z.6.0.M",
+        "name": "Tobacco and Beverages (CUCI) exports",
+        "unit": "million USD",
+        "currency": "USD",
+        "frequency": "M"
+    },
+    "exports_crude_materials": {
+        "id": "F068.U1.FLU.H2.0.C.Z.Z.Z.Z.Z.6.0.M",
+        "name": "Crude Materials (CUCI) exports",
+        "unit": "million USD",
+        "currency": "USD",
+        "frequency": "M"
+    },
+    "exports_fuels": {
+        "id": "F068.U1.FLU.H3.0.C.Z.Z.Z.Z.Z.6.0.M",
+        "name": "Mineral fuels, lubricants and related materials (CUCI) exports",
+        "unit": "million USD",
+        "currency": "USD",
+        "frequency": "M"
+    },
+    "exports_organic_chemicals": {
+        "id": "F068.U1.FLU.H4.0.C.Z.Z.Z.Z.Z.6.0.M",
+        "name": "Animal and vegetable oils (CUCI) exports",
+        "unit": "million USD",
+        "currency": "USD",
+        "frequency": "M"
+    },
+    "exports_chemicals": {
+        "id": "F068.U1.FLU.H5.0.C.Z.Z.Z.Z.Z.6.0.M",
+        "name": "Chemicals and related products (CUCI) exports",
+        "unit": "million USD",
+        "currency": "USD",
+        "frequency": "M"
+    },
+    "exports_manufactured_goods": {
+        "id": "F068.U1.FLU.H6.0.C.Z.Z.Z.Z.Z.6.0.M",
+        "name": "Manufactured Goods (CUCI) exports",
+        "unit": "million USD",
+        "currency": "USD",
+        "frequency": "M"
+    },
+    "exports_machinery": {
+        "id": "F068.U1.FLU.H7.0.C.Z.Z.Z.Z.Z.6.0.M",
+        "name": "Machinery and transport equipment (CUCI) exports",
+        "unit": "million USD",
+        "currency": "USD",
+        "frequency": "M"
+    },
+    "exports_miscellaneous": {
+        "id": "F068.U1.FLU.H8.0.C.Z.Z.Z.Z.Z.6.0.M",
+        "name": "Miscellaneous Manufactured Articles (CUCI) exports",
+        "unit": "million USD",
+        "currency": "USD",
+        "frequency": "M"
+    },
+    "exports_unclassified": {
+        "id": "F068.U1.FLU.H9.0.C.Z.Z.Z.Z.Z.6.0.M",
+        "name": "Unclassified (CUCI) exports",
+        "unit": "million USD",
+        "currency": "USD",
+        "frequency": "M"
+    },
+
+
+
+
+
+    
+        
+    "trade_partner_germany": {
+        "id": "F073.PTC.PON.DEU.A",
+        "name": "Ponderadores por socio comercial (% participación) - Alemania",
+        "unit": "%",
+        "currency": null,
+        "frequency": "A"
+    },
+    "trade_partner_argentina": {
+        "id": "F073.PTC.PON.ARG.A",
+        "name": "Ponderadores por socio comercial (% participación) - Argentina",
+        "unit": "%",
+        "currency": null,
+        "frequency": "A"
+    },
+    "trade_partner_belgium": {
+        "id": "F073.PTC.PON.BEL.A",
+        "name": "Ponderadores por socio comercial (% participación) - Bélgica",
+        "unit": "%",
+        "currency": null,
+        "frequency": "A"
+        },
+    "trade_partner_bolivia": {
+        "id": "F073.PTC.PON.BOL.A",
+        "name": "Ponderadores por socio comercial (% participación) - Bolivia",
+        "unit": "%",
+        "currency": null,
+        "frequency": "A"
+    },
+    "trade_partner_brazil": {
+        "id": "F073.PTC.PON.BRA.A",
+        "name": "Ponderadores por socio comercial (% participación) - Brasil",
+        "unit": "%",
+        "currency": null,
+        "frequency": "A"
+    },
+    "trade_partner_canada": {
+        "id": "F073.PTC.PON.CAN.A",
+        "name": "Ponderadores por socio comercial (% participación) - Canadá",
+        "unit": "%",
+        "currency": null,
+        "frequency": "A"
+    },
+    "trade_partner_china": {
+        "id": "F073.PTC.PON.CHN.A",
+        "name": "Ponderadores por socio comercial (% participación) - China",
+        "unit": "%",
+        "currency": null,
+        "frequency": "A"
+    },
+    "trade_partner_colombia": {
+        "id": "F073.PTC.PON.COL.A",
+        "name": "Ponderadores por socio comercial (% participación) - Colombia",
+        "unit": "%",
+        "currency": null,
+        "frequency": "A"
+    },
+    "trade_partner_south_korea": {
+        "id": "F073.PTC.PON.KOR.A",
+        "name": "Ponderadores por socio comercial (% participación) - Corea del Sur",
+        "unit": "%",
+        "currency": null,
+        "frequency": "A"
+    },
+    "trade_partner_ecuador": {
+        "id": "F073.PTC.PON.ECU.A",
+        "name": "Ponderadores por socio comercial (% participación) - Ecuador",
+        "unit": "%",
+        "currency": null,
+        "frequency": "A"
+    },
+    "trade_partner_spain": {
+        "id": "F073.PTC.PON.ESP.A",
+        "name": "Ponderadores por socio comercial (% participación) - España",
+        "unit": "%",
+        "currency": null,
+        "frequency": "A"
+    },
+    "trade_partner_usa": {
+        "id": "F073.PTC.PON.USA.A",
+        "name": "Ponderadores por socio comercial (% participación) - Estados Unidos",
+        "unit": "%",
+        "currency": null,
+        "frequency": "A"
+    },
+    "trade_partner_finland": {
+        "id": "F073.PTC.PON.FIN.A",
+        "name": "Ponderadores por socio comercial (% participación) - Finlandia",
+        "unit": "%",
+        "currency": null,
+        "frequency": "A"
+    },
+    "trade_partner_france": {
+        "id": "F073.PTC.PON.FRA.A",
+        "name": "Ponderadores por socio comercial (% participación) - Francia",
+        "unit": "%",
+        "currency": null,
+        "frequency": "A"
+    },
+    "trade_partner_india": {
+        "id": "F073.PTC.PON.IND.A",
+        "name": "Ponderadores por socio comercial (% participación) - India",
+        "unit": "%",
+        "currency": null,
+        "frequency": "A"
+    },
+    "trade_partner_italy": {
+        "id": "F073.PTC.PON.ITA.A",
+        "name": "Ponderadores por socio comercial (% participación) - Italia",
+        "unit": "%",
+        "currency": null,
+        "frequency": "A"
+    },
+    "trade_partner_japan": {
+        "id": "F073.PTC.PON.JPN.A",
+        "name": "Ponderadores por socio comercial (% participación) - Japón",
+        "unit": "%",
+        "currency": null,
+        "frequency": "A"
+    },
+    "trade_partner_mexico": {
+        "id": "F073.PTC.PON.MEX.A",
+        "name": "Ponderadores por socio comercial (% participación) - México",
+        "unit": "%",
+        "currency": null,
+        "frequency": "A"
+    },
+    "trade_partner_netherlands": {
+        "id": "F073.PTC.PON.NLD.A",
+        "name": "Ponderadores por socio comercial (% participación) - Países Bajos",
+        "unit": "%",
+        "currency": null,
+        "frequency": "A"
+    },
+    "trade_partner_paraguay": {
+        "id": "F073.PTC.PON.PRY.A",
+        "name": "Ponderadores por socio comercial (% participación) - Paraguay",
+        "unit": "%",
+        "currency": null,
+        "frequency": "A"
+    },
+    "trade_partner_peru": {
+        "id": "F073.PTC.PON.PER.A",
+        "name": "Ponderadores por socio comercial (% participación) - Perú",
+        "unit": "%",
+        "currency": null,
+        "frequency": "A"
+    },
+    "trade_partner_uk": {
+        "id": "F073.PTC.PON.GBR.A",
+        "name": "Ponderadores por socio comercial (% participación) - Reino Unido",
+        "unit": "%",
+        "currency": null,
+        "frequency": "A"
+    },
+    "trade_partner_sweden": {
+        "id": "F073.PTC.PON.SWE.A",
+        "name": "Ponderadores por socio comercial (% participación) - Suecia",
+        "unit": "%",
+        "currency": null,
+        "frequency": "A"
+    },
+    "trade_partner_switzerland": {
+        "id": "F073.PTC.PON.CHE.A",
+        "name": "Ponderadores por socio comercial (% participación) - Suiza",
+        "unit": "%",
+        "currency": null,
+        "frequency": "A"
+    },
+    "trade_partner_thailand": {
+        "id": "F073.PTC.PON.THA.A",
+        "name": "Ponderadores por socio comercial (% participación) - Tailandia",
+        "unit": "%",
+        "currency": null,
+        "frequency": "A"
+    },
+    "trade_partner_taiwan": {
+        "id": "F073.PTC.PON.TWN.A",
+        "name": "Ponderadores por socio comercial (% participación) - Taiwan, Provincia de China",
+        "unit": "%",
+        "currency": null,
+        "frequency": "A"
+    },
+    "trade_partner_venezuela": {
+        "id": "F073.PTC.PON.VEN.A",
+        "name": "Ponderadores por socio comercial (% participación) - Venezuela",
+        "unit": "%",
+        "currency": null,
+        "frequency": "A"
+    },
+    "trade_partner_vietnam": {
+        "id": "F073.PTC.PON.VNM.A",
+        "name": "Ponderadores por socio comercial (% participación) - Vietnam",
+        "unit": "%",
+        "currency": null,
+        "frequency": "A"
+    }
+}
